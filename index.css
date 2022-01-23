@@ -1,68 +1,82 @@
 * {
-    margin: 0px;
-    padding: 0px;
-    font-family: 'Inter';
+  margin: 0px;
+  padding: 0px;
+  font-family: "Inter";
 }
 
 .conteudo-principal {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 100vw;
-    height: 100vh;
-    background-color: #8257E5;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100vw;
+  height: 100vh;
+  color: #fff;
+  background-color: #8257e5;
+}
+
+.conteudo2 {
+  display: flex;
+  align-items: center;
+  height: 600px;
+}
+
+.btn img {
+    margin-right: 20px;
 }
 
 .conteudo1 {
-    height: 300px;
-    color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-around;
+  height: 600px;
 }
 
 .p1 {
-    font-size: 100px;
+  font-size: 100px;
 }
 
 .p2 {
-    font-size: 30px;
+  font-size: 30px;
 }
 
-
 button {
-    border-radius: 10px;
-    font-size: 20px;
-    margin: 10px;
-    color: #fff;
-    border: 0;
-    width: 282px;
-    height: 104px;
+  border-radius: 10px;
+  font-size: 20px;
+  margin: 10px;
+  color: #fff;
+  border: 0;
+  width: 282px;
+  height: 104px;
 }
 
 .btn1 {
-    background-color: #9871F5;
+  background-color: #9871f5;
 }
 
 .btn2 {
-    background-color: #04D361;
+  background-color: #04d361;
 }
 
 .btn {
-    display: flex;
-}   
+  display: flex;
+}
 
 .btn a {
-    height: 100%;
-    text-decoration:none;
+  height: 100%;
+  text-decoration: none;
 }
 
 .btn a:visited {
-    color:#fff;
+  color: #fff;
 }
 
-
-.btn1 a, .btn2 a {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row;
-    text-align: center;
+.btn1 a,
+.btn2 a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  text-align: center;
 }
