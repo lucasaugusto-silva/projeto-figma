@@ -1,0 +1,29 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    color: #fff;
+    font-family: "Inter";
+}
+
+.conteudo1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #8257E5;
+    height: 380px;
+}
+
+.home a{
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.home a:visited {
+    color: #fff;
+}
+
+
+.p1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
