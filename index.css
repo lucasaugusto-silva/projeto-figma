@@ -1,0 +1,68 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Inter';
+}
+
+.conteudo-principal {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: #8257E5;
+}
+
+.conteudo1 {
+    height: 300px;
+    color: white;
+}
+
+.p1 {
+    font-size: 100px;
+}
+
+.p2 {
+    font-size: 30px;
+}
+
+
+button {
+    border-radius: 10px;
+    font-size: 20px;
+    margin: 10px;
+    color: #fff;
+    border: 0;
+    width: 282px;
+    height: 104px;
+}
+
+.btn1 {
+    background-color: #9871F5;
+}
+
+.btn2 {
+    background-color: #04D361;
+}
+
+.btn {
+    display: flex;
+}   
+
+.btn a {
+    height: 100%;
+    text-decoration:none;
+}
+
+.btn a:visited {
+    color:#fff;
+}
+
+
+.btn1 a, .btn2 a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    text-align: center;
+}
